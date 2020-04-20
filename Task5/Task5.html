@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Task5style.css">
+    <title>Task5</title>
+</head>
+<body>
+    <!--for desktop-->
+  <div class="desktop">
+        <img id="wallpaper" src="wallpaper.png" alt="Responsive">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <button id="bar">
+                            <div class="bar">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div></button>
+                          <a href="#" class="search">
+                            <i class="fa fa-search icon" aria-hidden="true"></i>
+                            Search
+                          </a>
+                    </div>
+                    <div class="col-lg-4 blog">
+                        BLOG
+                    </div>
+                    <div class="col-lg-4">
+                            <span class="right-nav">Subscribe</span>
+                            <span class="right-nav">Sign in</span>
+                            <span class="right-nav"><input type="button" class="button" value=" Get started "> </span>
+                    </div>
+                </div>
+            </div>
+           </nav>
+    </div>
+
+    <!--for mobile-->
+    <div class="mobile">
+        <img id="wallpaper" src="wallpaper.png" alt="Responsive">
+        <nav class="navbar-mobile">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <button id="bar-mobile">
+                            <div class="bar">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                          </div></button>
+                    <div class="blog-mobile">
+                        BLOG
+                    </div>
+                </div>
+                    <div class="col-xs-6">
+                            <span class="right-nav-mobile"><input type="button" class="button-mobile" value=" Get started "> </span>
+                    </div>
+                </div>
+            </div>
+           </nav>
+    </div>
+ 
+    <!--for desktop-->
+<div class="home-desktop">
+    <div class="row bold">
+        How Collaboration makes us better designer.
+    </div>
+    <div class="row middle">
+        The concept of the solitary creative genius is a myth. When I first began as a designer, I felt like my designs had to be complete before I could show them to anyone.
+    </div>
+    <div class="row">
+        <input type="button" class="button last" value="Read more">
+    </div>
+</div>
+
+<!--for mobile-->
+<div class="home-mobile">
+    <div class="row bold-mobile">
+        How Collaboration makes us better designer.
+    </div>
+    <div class="row middle-mobile">
+        The concept of the solitary creative genius is a myth. When I first began as a designer, I felt like my designs had to be complete before I could show them to anyone.
+    </div>
+    <div class="row">
+        <input type="button" class="button last-mobile" value="Read more">
+    </div>
+</div>
+
+<!--for dektop-->
+<div class="body-desktop">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+            <button id="body-head" onclick="document.getElementById('show-all').style.display='none' ; 
+                                          onclick=document.getElementById('life-time').style.display='block' ; 
+                                          onclick=document.getElementById('design').style.display='none' ; 
+                                          onclick=document.getElementById('business').style.display='none' ;
+                                          onclick=document.getElementById('travel').style.display='none'">LIFESTYLE</button>
+
+           <button id="body-head" onclick="document.getElementById('show-all').style.display='none' ; 
+                                         onclick=document.getElementById('life-time').style.display='none' ; 
+                                         onclick=document.getElementById('design').style.display='block' ; 
+                                         onclick=document.getElementById('business').style.display='none' ;
+                                         onclick=document.getElementById('travel').style.display='none'">DESIGN</button>
+
+            <button id="body-head" onclick="document.getElementById('show-all').style.display='none' ; 
+                                          onclick=document.getElementById('life-time').style.display='none' ; 
+                                          onclick=document.getElementById('design').style.display='none' ; 
+                                          onclick=document.getElementById('business').style.display='block' ;
+                                          onclick=document.getElementById('travel').style.display='none'">BUSINESS</button>
+
+            <button id="body-head" onclick="document.getElementById('show-all').style.display='none' ; 
+                                          onclick=document.getElementById('life-time').style.display='none' ; 
+                                          onclick=document.getElementById('design').style.display='none' ; 
+                                          onclick=document.getElementById('business').style.display='none' ;
+                                          onclick=document.getElementById('travel').style.display='block'">TRAVEL</button>
+            </div>
+            <div class="col-lg-6">
+            <button id="head-last" onclick="document.getElementById('show-all').style.display='block' ; 
+                                          onclick=document.getElementById('life-time').style.display='none' ; 
+                                          onclick=document.getElementById('design').style.display='none' ; 
+                                          onclick=document.getElementById('business').style.display='none' ;
+                                          onclick=document.getElementById('travel').style.display='none'">SHOW ALL</button>
+            </div>
+        </div>
+
+        <!--all-->
+    <div id="show-all">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="women.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">Taking a break during this corona virus pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="nature.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    January 03 2020
+                                    <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="brown-woman.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">How a better user experience can improve the sales.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="white-boats.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="white-boats.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3">
+                    <div class="for-card pad">
+                        <div class="card">
+                            <img id="card-image" src="women.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">Taking a break during this corona virus pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3">
+                    <div class="for-card pad1">
+                        <div class="card">
+                            <img id="card-image" src="nature.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    January 03 2020
+                                    <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-3">
+                    <div class="for-card pad">
+                        <div class="card">
+                            <img id="card-image" src="brown-woman.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">How a better user experience can improve the sales.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+       
+
+             <!--for lifetime-->
+             <div class="row" id="life-time">
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="women.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    March 17 2020
+                                    <h4 class="card-title">Taking a break during this corona virus pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3">
+                    <div class="for-card">
+                        <div class="card">
+                            <img id="card-image" src="nature.png" alt="Responsive">
+                            <div class="container">
+                                <div class="card-body">
+                                    January 03 2020
+                                    <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                    <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                                </div>
+                            <div class="bottom">
+                                <div class="content">
+                                    <div class="col-lg-2">
+                                        <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                    </div>
+                                    <div class="col-lg-8 footer-text">
+                                        <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    
+        <!--for design-->
+        <div class="row" id="design">
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="brown-woman.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">How a better user experience can improve the sales.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="white-boats.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--for business-->
+        <div class="row" id="business">
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="nature.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                January 03 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+    
+    
+    </div>
+    
+        <!--travel-->
+        <div class="row" id="travel">
+             <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="white-boats.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        <input type="button" class="button loadMore" value="Load more">
+
+    </div>
+</div>
+
+<!--for mobile-->
+<div class="body-mobile">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8">
+            <button id="body-head-mobile" onclick="document.getElementById('show-all-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('life-time-mobile').style.display='block' ; 
+                                          onclick=document.getElementById('design-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('business-mobile').style.display='none' ;
+                                          onclick=document.getElementById('travel-mobile').style.display='none'">LIFESTYLE</button>
+
+           <button id="body-head-mobile" onclick="document.getElementById('show-all-mobile').style.display='none' ; 
+                                         onclick=document.getElementById('life-time-mobile').style.display='none' ; 
+                                         onclick=document.getElementById('design-mobile').style.display='block' ; 
+                                         onclick=document.getElementById('business-mobile').style.display='none' ;
+                                         onclick=document.getElementById('travel-mobile').style.display='none'">DESIGN</button>
+
+            <button id="body-head-mobile" onclick="document.getElementById('show-all-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('life-time-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('design-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('business-mobile').style.display='block' ;
+                                          onclick=document.getElementById('travel-mobile').style.display='none'">BUSINESS</button>
+
+            <button id="body-head-mobile" onclick="document.getElementById('show-all-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('life-time-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('design-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('business-mobile').style.display='none' ;
+                                          onclick=document.getElementById('travel-mobile').style.display='block'">TRAVEL</button>
+            </div>
+            <div class="col-xs-4">
+            <button id="head-last-mobile" onclick="document.getElementById('show-all-mobile').style.display='block' ; 
+                                          onclick=document.getElementById('life-time-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('design-mobile').style.display='none' ; 
+                                          onclick=document.getElementById('business-mobile').style.display='none' ;
+                                          onclick=document.getElementById('travel-mobile').style.display='none'">SHOW ALL</button>
+            </div>
+        </div>
+
+        <!--all-->
+        <div class="row" id="show-all-mobile">
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="women.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">Taking a break during this corona virus pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="nature.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                January 03 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="brown-woman.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">How a better user experience can improve the sales.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="white-boats.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+        <!--for lifetime-->
+        <div class="row" id="life-time-mobile">
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="women.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                March 17 2020
+                                <h4 class="card-title">Taking a break during this corona virus pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-3">
+                <div class="for-card">
+                    <div class="card">
+                        <img id="card-image" src="nature.png" alt="Responsive">
+                        <div class="container">
+                            <div class="card-body">
+                                January 03 2020
+                                <h4 class="card-title">Taking a break in this pandemic.</h4>
+                                <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                            </div>
+                        <div class="bottom">
+                            <div class="content">
+                                <div class="col-lg-2">
+                                    <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                                </div>
+                                <div class="col-lg-8 footer-text">
+                                    <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--for design-->
+    <div class="row" id="design-mobile">
+        <div class="col-lg-3">
+            <div class="for-card">
+                <div class="card">
+                    <img id="card-image" src="brown-woman.png" alt="Responsive">
+                    <div class="container">
+                        <div class="card-body">
+                            March 17 2020
+                            <h4 class="card-title">How a better user experience can improve the sales.</h4>
+                            <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                        </div>
+                    <div class="bottom">
+                        <div class="content">
+                            <div class="col-lg-2">
+                                <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                            </div>
+                            <div class="col-lg-8 footer-text">
+                                <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="for-card">
+                <div class="card">
+                    <img id="card-image" src="white-boats.png" alt="Responsive">
+                    <div class="container">
+                        <div class="card-body">
+                            March 17 2020
+                            <h4 class="card-title">Taking a break in this pandemic.</h4>
+                            <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                        </div>
+                    <div class="bottom">
+                        <div class="content">
+                            <div class="col-lg-2">
+                                <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                            </div>
+                            <div class="col-lg-8 footer-text">
+                                <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--for business-->
+    <div class="row" id="business-mobile">
+        <div class="col-lg-3">
+            <div class="for-card">
+                <div class="card">
+                    <img id="card-image" src="nature.png" alt="Responsive">
+                    <div class="container">
+                        <div class="card-body">
+                            January 03 2020
+                            <h4 class="card-title">Taking a break in this pandemic.</h4>
+                            <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                        </div>
+                    <div class="bottom">
+                        <div class="content">
+                            <div class="col-lg-2">
+                                <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                            </div>
+                            <div class="col-lg-8 footer-text">
+                                <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+</div>
+
+    <!--travel-->
+    <div class="row" id="travel-mobile">
+         <div class="col-lg-3">
+            <div class="for-card">
+                <div class="card">
+                    <img id="card-image" src="white-boats.png" alt="Responsive">
+                    <div class="container">
+                        <div class="card-body">
+                            March 17 2020
+                            <h4 class="card-title">Taking a break in this pandemic.</h4>
+                            <p class="card-text">Last year I wrote about why booking too far in advance can…</p>
+                        </div>
+                    <div class="bottom">
+                        <div class="content">
+                            <div class="col-lg-2">
+                                <span><img id="footer-image" src="man.png" alt="Responsive"></span>
+                            </div>
+                            <div class="col-lg-8 footer-text">
+                                <span>by Muthu Raju<br>Expert Blogger and traveller</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <input type="button" class="button loadMore-mobile" value="Load more">
+</body>
+</html>
