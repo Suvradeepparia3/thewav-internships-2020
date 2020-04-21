@@ -1,0 +1,351 @@
+#wallpaper{
+    width: 1350px;
+    height: wrap;
+    filter: blur(1px) brightness(35%);
+    position: absolute;
+    z-index: -1;
+}
+#wallpaper-mobile{
+    width: 320px;
+    height: 50px;
+    position: absolute;
+    z-index: -1;
+}
+.search{
+    color: white;
+}
+.navbar{
+    z-index: 2;
+    border-bottom: 1px solid #FFFFFF;
+}
+.navbar-mobile{
+    z-index: 2;
+}
+#bar{
+    float: left;
+    width: 39px;
+    height: 39px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    background-color: transparent;
+}
+#bar-mobile{
+    float: left;
+    width: 39px;
+    height: 39px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 9px;
+    background-color: transparent;
+}
+.bar1, .bar3, .bar2{
+    width: 20px;
+    height: 1px;
+    background-color:white;
+    margin: 3px 2px;
+  }
+  .icon{
+      color: white;
+      margin-top: 30px;
+      margin-left: 30px;
+  }
+  .blog{
+      font-size: 25px;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      margin-top: 20px;
+      color: white;
+      text-align: center;
+  }
+  .blog-mobile{
+    font-size: 15px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 27px;
+    color: white;
+    float: right;
+}
+  .right-nav{
+    color: white;
+    margin-right: 9px;
+    margin-left: 35px;
+}
+.right-nav-mobile{
+    color: white;
+    margin-right: 9px;
+    margin-left: 15px;
+}
+  .button{
+    background-color: green; 
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 24px ;
+    cursor: pointer;
+    border-radius: 9px;
+    border: green;
+}
+.button-mobile{
+    background-color: green; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 22px ;
+    cursor: pointer;
+    border-radius: 9px;
+    border: green;
+}
+.bold{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    width: 900px;
+    margin-left: 220px;
+    text-align: center;
+}
+.bold-mobile{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    width: 320px;
+    margin-left: 2px;
+    text-align: center;
+}
+.middle{
+    text-align: center;
+    color: white;
+    width: 540px;
+    margin-top: 30px;
+    margin-left: 420px;
+    text-align: center;
+
+}
+.middle-mobile{
+    text-align: center;
+    color: white;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 42px;
+    text-align: center;
+
+}
+.last{
+    background-color: #705FE5;
+    margin-left: 653px;
+    border: #705FE5;
+
+}
+.last-mobile{
+    background-color: #705FE5;
+    margin-left: 123px;
+    border: #705FE5;
+    margin-top: 35px;
+
+}
+.loadMore{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: black;
+    margin-left: 520px;
+    border: black;
+    box-shadow: 0px 3px gray;
+}
+.loadMore-mobile{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: black;
+    margin-left: 90px;
+    border: black;
+    box-shadow: 0px 3px gray;
+}
+.home-mobile{
+    margin-top: 110px;
+    margin-bottom: 115px;
+}
+.home-desktop{
+    margin-top: 110px;
+    margin-bottom: 115px;
+}
+#body-head{
+    color: #000000;
+    font-size: 13px;
+    font-family: 'Montserrat';
+    margin-right: 18px;
+    margin-top: 8px;
+    float: left;
+    background-color: white; 
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+    border: white;
+}
+#body-head-mobile{
+    color: #000000;
+    font-size: 8px;
+    font-family: 'Montserrat';
+    margin-top: 8px;
+    float: left;
+    background-color: white; 
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+    border: white;
+}
+#head-last{
+    font-size: 13px;
+    font-family: 'Montserrat';
+    margin-right: 1px;
+    float: right;
+    color: #000000;
+    margin-top: 8px;
+    background-color: white; 
+    padding: 1px 3px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+    border: white;
+}
+#head-last-mobile{
+    color: #000000;
+    font-size: 8px;
+    font-family: 'Montserrat';
+    margin-top: 8px;
+    float: right;
+    background-color: white; 
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 9px;
+    border: white;
+}
+#show-all, #show-all-mobile{
+    display: block;
+}
+#life-time, #life-time-mobile{
+    display: none;
+}
+#design, #design-mobile{
+    display: none;
+}
+#business, #business-mobile{
+    display: none;
+}
+#travel, #travel-mobile{
+    display: none;
+}
+.for-card{
+    margin-top: 60px;
+}
+.pad{
+    margin-top: -42px;
+}
+.pad1{
+    margin-top: -20px;
+}
+.card{
+    box-shadow:  0px 14px 40px #00000017;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.footer-text{
+    margin-top: 2px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.content{
+    margin: 20px 0px 20px 20px;
+}  
+.bottom{
+    width: 255px;
+    border-top: .5px solid rgba(0, 0, 0, 0.637);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card-body{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.card-title{
+    margin-top: 20px;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    width: 160px;
+}
+.card-text{
+    width: 160px;
+    font-family: 'Times New Roman', Times, serif;
+    color: dimgray;
+    margin-top: 20px;
+}
+#card-image{
+    width: 270px;
+    height: 200px;
+}
+#footer-image{
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 800px){
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 800px){
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: block;
+    }
+}
+@media screen and (max-width: 800px){
+    .home-mobile{
+        display: block;
+    }
+    .home-desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 800px){
+    .home-mobile{
+        display: none;
+    }
+    .home-desktop{
+        display: block;
+    }
+}
+@media screen and (max-width: 800px){
+    .body-mobile{
+        display: block;
+    }
+    .body-desktop{
+        display: none;
+    }
+}
+@media screen and (min-width: 800px){
+    .body-mobile{
+        display: none;
+    }
+    .body-desktop{
+        display: block;
+    }
+}
